@@ -10,3 +10,5 @@ def register(request, profile_type):
         return render(request,'jobsearch/register.html', {
             'profile_type': profile_type
         })
+def login(request):
+    return render(request, 'jobsearch/login.html')

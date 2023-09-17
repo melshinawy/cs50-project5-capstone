@@ -6,7 +6,7 @@ from django.contrib.auth.models import AbstractUser
 #     class Role(models.TextChoices):
 #         ADMIN = "ADMIN", 'Admin'
 #         EMPLOYER = "EMPLOYER", 'Employer'
-#         APPLICANT = "APLICANT", 'Aplicant'
+#         JOBSEEKER = "JOBSEEKER", 'Jobseeker'
     
 #     base_role = Role.ADMIN
 
